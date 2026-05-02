@@ -220,30 +220,29 @@ def window1():
 
 
 # Set window title
-sys.stdout.write('\x1b]2;𓆩【EMONBDZONE】𓆪 \x07')
+sys.stdout.write('\x1b]2;𓆩【KMT SYSTEM】𓆪 \x07')
 
-
-    # EMON Logo - Speed - Version 2.5
 def ____banner____():
     if 'win' in sys.platform:
         os.system('cls')
     else:
         os.system('clear')
-    
+
     print("""\033[1;32m
         
-                  (\  (\
- („• ֊ •„)   Assalamualaikum. . . 💌
- ━O━O━━━━━━━━━━━━━━━━━━━━━━━
-[Name]'s Intro! 🐇 💨 
-┊🌺 Name : EMON
-┊🌼 Age : 23
-┊🌻 Pronouns/Gender : Male
-┊🥕 Hobbies : HACKING
-      Made By Bangladesh 
-============================
-                TOOL BY EMONBDZONE 
+        ██╗  ██╗███╗   ███╗████████╗
+        ██║ ██╔╝████╗ ████║╚══██╔══╝
+        █████╔╝ ██╔████╔██║   ██║   
+        ██╔═██╗ ██║╚██╔╝██║   ██║   
+        ██║  ██╗██║ ╚═╝ ██║   ██║   
+        ╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝   
+
+            K Y A W  M I N  T U N
+            >>>  K M T TOOL <<<
+
+────────────────────────────────────
 \033[0m""")
+    
 
 
 def creationyear(uid):
